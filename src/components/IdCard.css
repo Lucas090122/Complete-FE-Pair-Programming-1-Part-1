@@ -1,0 +1,27 @@
+.id-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .id-card img {
+    width: auto;
+    height: 100%;
+    max-height: 120px;
+    object-fit: cover;
+  }
+  
+  .id-card-info {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .id-card-info p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
